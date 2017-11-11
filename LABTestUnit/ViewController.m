@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *num1;
+@property (weak, nonatomic) IBOutlet UITextField *num2;
+@property (weak, nonatomic) IBOutlet UILabel *resultado;
 
 @end
 
@@ -25,5 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)somar:(UIButton *)sender {
+}
 
 @end

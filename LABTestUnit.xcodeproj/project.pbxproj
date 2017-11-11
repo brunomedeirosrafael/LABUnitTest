@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0695EA51479D64A7FEBADB7D /* libPods-LABTestUnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93591CB1D9E4926389AF6A41 /* libPods-LABTestUnitTests.a */; };
+		3BD32C368020E6FAE997246F /* libPods-LABTestUnit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B48363E303B36B9F3B586E /* libPods-LABTestUnit.a */; };
+		6B52DEF21F5C5E9200555F61 /* CalculatoBusinessSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B52DEF11F5C5E9200555F61 /* CalculatoBusinessSpec.m */; };
+		6B85FE0F1F5C5CD10045D979 /* CalculatorBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B85FE0E1F5C5CD10045D979 /* CalculatorBusiness.m */; };
 		6BA6004C1F586A0F00FBA46F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6004B1F586A0F00FBA46F /* main.m */; };
 		6BA6004F1F586A0F00FBA46F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6004E1F586A0F00FBA46F /* AppDelegate.m */; };
 		6BA600521F586A0F00FBA46F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA600511F586A0F00FBA46F /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		6BA6005A1F586A0F00FBA46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA600581F586A0F00FBA46F /* LaunchScreen.storyboard */; };
 		6BA600651F586A0F00FBA46F /* LABTestUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA600641F586A0F00FBA46F /* LABTestUnitTests.m */; };
 		6BA600701F586A1000FBA46F /* LABTestUnitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6006F1F586A1000FBA46F /* LABTestUnitUITests.m */; };
+		6BF46D1E1FB759A00064D296 /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF46D1D1FB759A00064D296 /* ProductService.m */; };
+		919C7B61679623014744155A /* libPods-LABTestUnitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE80CE2FE498321CA043248 /* libPods-LABTestUnitUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15711C2553411656642041F9 /* Pods-LABTestUnit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnit/Pods-LABTestUnit.debug.xcconfig"; sourceTree = "<group>"; };
+		38B48363E303B36B9F3B586E /* libPods-LABTestUnit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LABTestUnit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B52DEF11F5C5E9200555F61 /* CalculatoBusinessSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatoBusinessSpec.m; sourceTree = "<group>"; };
+		6B85FE0D1F5C5CD10045D979 /* CalculatorBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBusiness.h; sourceTree = "<group>"; };
+		6B85FE0E1F5C5CD10045D979 /* CalculatorBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBusiness.m; sourceTree = "<group>"; };
 		6BA600471F586A0F00FBA46F /* LABTestUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LABTestUnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA6004B1F586A0F00FBA46F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BA6004D1F586A0F00FBA46F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		6BA6006B1F586A0F00FBA46F /* LABTestUnitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LABTestUnitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA6006F1F586A1000FBA46F /* LABTestUnitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABTestUnitUITests.m; sourceTree = "<group>"; };
 		6BA600711F586A1000FBA46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF46D1C1FB759A00064D296 /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductService.h; path = Provider/ProductService.h; sourceTree = "<group>"; };
+		6BF46D1D1FB759A00064D296 /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductService.m; path = Provider/ProductService.m; sourceTree = "<group>"; };
+		6DE80CE2FE498321CA043248 /* libPods-LABTestUnitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LABTestUnitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797B52154E935F9BDBEEF083 /* Pods-LABTestUnitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnitUITests/Pods-LABTestUnitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93591CB1D9E4926389AF6A41 /* libPods-LABTestUnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LABTestUnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9957F351CA6CDE5FFDD06117 /* Pods-LABTestUnit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnit/Pods-LABTestUnit.release.xcconfig"; sourceTree = "<group>"; };
+		C0F07B710C057E1CF478C6E0 /* Pods-LABTestUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnitTests/Pods-LABTestUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBA36C771994DF04770A902 /* Pods-LABTestUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnitTests/Pods-LABTestUnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDD116108326EED9D8B0F88C /* Pods-LABTestUnitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LABTestUnitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LABTestUnitUITests/Pods-LABTestUnitUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD32C368020E6FAE997246F /* libPods-LABTestUnit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0695EA51479D64A7FEBADB7D /* libPods-LABTestUnitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +94,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919C7B61679623014744155A /* libPods-LABTestUnitUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B90CED843223F155D7CEDB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B48363E303B36B9F3B586E /* libPods-LABTestUnit.a */,
+				93591CB1D9E4926389AF6A41 /* libPods-LABTestUnitTests.a */,
+				6DE80CE2FE498321CA043248 /* libPods-LABTestUnitUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6042AAD3DFD451B5FF4C9B2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15711C2553411656642041F9 /* Pods-LABTestUnit.debug.xcconfig */,
+				9957F351CA6CDE5FFDD06117 /* Pods-LABTestUnit.release.xcconfig */,
+				C0F07B710C057E1CF478C6E0 /* Pods-LABTestUnitTests.debug.xcconfig */,
+				FDBA36C771994DF04770A902 /* Pods-LABTestUnitTests.release.xcconfig */,
+				797B52154E935F9BDBEEF083 /* Pods-LABTestUnitUITests.debug.xcconfig */,
+				FDD116108326EED9D8B0F88C /* Pods-LABTestUnitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B85FE0C1F5C5C890045D979 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				6BF46D1F1FB759AA0064D296 /* Product */,
+				6BF46D191FB758D00064D296 /* Calculator */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
 		6BA6003E1F586A0F00FBA46F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				6BA600631F586A0F00FBA46F /* LABTestUnitTests */,
 				6BA6006E1F586A0F00FBA46F /* LABTestUnitUITests */,
 				6BA600481F586A0F00FBA46F /* Products */,
+				6042AAD3DFD451B5FF4C9B2C /* Pods */,
+				5B90CED843223F155D7CEDB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +158,8 @@
 		6BA600491F586A0F00FBA46F /* LABTestUnit */ = {
 			isa = PBXGroup;
 			children = (
+				6BF46D1B1FB7594F0064D296 /* Provider */,
+				6B85FE0C1F5C5C890045D979 /* Business */,
 				6BA6004D1F586A0F00FBA46F /* AppDelegate.h */,
 				6BA6004E1F586A0F00FBA46F /* AppDelegate.m */,
 				6BA600501F586A0F00FBA46F /* ViewController.h */,
@@ -127,6 +186,7 @@
 			children = (
 				6BA600641F586A0F00FBA46F /* LABTestUnitTests.m */,
 				6BA600661F586A0F00FBA46F /* Info.plist */,
+				6B52DEF11F5C5E9200555F61 /* CalculatoBusinessSpec.m */,
 			);
 			path = LABTestUnitTests;
 			sourceTree = "<group>";
@@ -140,6 +200,31 @@
 			path = LABTestUnitUITests;
 			sourceTree = "<group>";
 		};
+		6BF46D191FB758D00064D296 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				6B85FE0D1F5C5CD10045D979 /* CalculatorBusiness.h */,
+				6B85FE0E1F5C5CD10045D979 /* CalculatorBusiness.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		6BF46D1B1FB7594F0064D296 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				6BF46D1C1FB759A00064D296 /* ProductService.h */,
+				6BF46D1D1FB759A00064D296 /* ProductService.m */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		6BF46D1F1FB759AA0064D296 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA600741F586A1100FBA46F /* Build configuration list for PBXNativeTarget "LABTestUnit" */;
 			buildPhases = (
+				3D2C33C34C81F1B9EF7C999D /* [CP] Check Pods Manifest.lock */,
 				6BA600431F586A0F00FBA46F /* Sources */,
 				6BA600441F586A0F00FBA46F /* Frameworks */,
 				6BA600451F586A0F00FBA46F /* Resources */,
+				E651C65D1BEFF62FF8431E18 /* [CP] Embed Pods Frameworks */,
+				79AB074FADE5EE63A96B154D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA600771F586A1100FBA46F /* Build configuration list for PBXNativeTarget "LABTestUnitTests" */;
 			buildPhases = (
+				64E3BAACFA2DFB91DEF51C63 /* [CP] Check Pods Manifest.lock */,
 				6BA6005C1F586A0F00FBA46F /* Sources */,
 				6BA6005D1F586A0F00FBA46F /* Frameworks */,
 				6BA6005E1F586A0F00FBA46F /* Resources */,
+				D7E0681F6A40A1AE93383B3E /* [CP] Embed Pods Frameworks */,
+				CBCC772F748F7438CEC5C5EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA6007A1F586A1100FBA46F /* Build configuration list for PBXNativeTarget "LABTestUnitUITests" */;
 			buildPhases = (
+				6A9263B0E4E724CE90F343D4 /* [CP] Check Pods Manifest.lock */,
 				6BA600671F586A0F00FBA46F /* Sources */,
 				6BA600681F586A0F00FBA46F /* Frameworks */,
 				6BA600691F586A0F00FBA46F /* Resources */,
+				9182DD6AD5B1F4A0D69031F0 /* [CP] Embed Pods Frameworks */,
+				98A9B491C1B3A000534DD649 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +362,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D2C33C34C81F1B9EF7C999D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64E3BAACFA2DFB91DEF51C63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9263B0E4E724CE90F343D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79AB074FADE5EE63A96B154D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnit/Pods-LABTestUnit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9182DD6AD5B1F4A0D69031F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnitUITests/Pods-LABTestUnitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A9B491C1B3A000534DD649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnitUITests/Pods-LABTestUnitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCC772F748F7438CEC5C5EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnitTests/Pods-LABTestUnitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E0681F6A40A1AE93383B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnitTests/Pods-LABTestUnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E651C65D1BEFF62FF8431E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LABTestUnit/Pods-LABTestUnit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BA600431F586A0F00FBA46F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BA600521F586A0F00FBA46F /* ViewController.m in Sources */,
+				6BF46D1E1FB759A00064D296 /* ProductService.m in Sources */,
+				6B85FE0F1F5C5CD10045D979 /* CalculatorBusiness.m in Sources */,
 				6BA6004F1F586A0F00FBA46F /* AppDelegate.m in Sources */,
 				6BA6004C1F586A0F00FBA46F /* main.m in Sources */,
 			);
@@ -284,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BA600651F586A0F00FBA46F /* LABTestUnitTests.m in Sources */,
+				6B52DEF21F5C5E9200555F61 /* CalculatoBusinessSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +659,7 @@
 		};
 		6BA600751F586A1100FBA46F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15711C2553411656642041F9 /* Pods-LABTestUnit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LABTestUnit/Info.plist;
@@ -435,6 +671,7 @@
 		};
 		6BA600761F586A1100FBA46F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9957F351CA6CDE5FFDD06117 /* Pods-LABTestUnit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LABTestUnit/Info.plist;
@@ -446,6 +683,7 @@
 		};
 		6BA600781F586A1100FBA46F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F07B710C057E1CF478C6E0 /* Pods-LABTestUnitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LABTestUnitTests/Info.plist;
@@ -458,6 +696,7 @@
 		};
 		6BA600791F586A1100FBA46F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBA36C771994DF04770A902 /* Pods-LABTestUnitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LABTestUnitTests/Info.plist;
@@ -470,6 +709,7 @@
 		};
 		6BA6007B1F586A1100FBA46F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797B52154E935F9BDBEEF083 /* Pods-LABTestUnitUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LABTestUnitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +721,7 @@
 		};
 		6BA6007C1F586A1100FBA46F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD116108326EED9D8B0F88C /* Pods-LABTestUnitUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LABTestUnitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +750,7 @@
 				6BA600761F586A1100FBA46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BA600771F586A1100FBA46F /* Build configuration list for PBXNativeTarget "LABTestUnitTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +759,7 @@
 				6BA600791F586A1100FBA46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BA6007A1F586A1100FBA46F /* Build configuration list for PBXNativeTarget "LABTestUnitUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +768,7 @@
 				6BA6007C1F586A1100FBA46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
